@@ -81,7 +81,7 @@ gulp.task('test', ['watch'], function (done) {
   karma.start(karmaConfig, done);
 });
 
-// Watch application files for changes; if found trigger re-concat and deploy
+// Watch application files for changes
 gulp.task('watch', ['build'], function () {
   gulp.watch(VENDOR_FILES, ['vendor']);
   gulp.watch(APP_FILES, ['scripts']);
