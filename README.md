@@ -11,3 +11,4 @@ A collection of common, re-usable Backbone.Marionette  [Behaviors](http://marion
 
 - Wrap behaviors for proper library inclusion
 - Get initial behaviors and tests in place
+- Wire up gulp
