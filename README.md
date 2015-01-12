@@ -7,8 +7,6 @@ A collection of common, re-usable Backbone.Marionette  [Behaviors](http://marion
 - **NewWindow** - Open any link with a class selector of "js-new-window" in a new browser tab/window.
 - **ReloadWindow** - Reload the current browser tab/window when a link with a class selector of "js-reload-window" is clicked.
 
-## TODO
+## Development Setup
 
-- Wrap behaviors for proper library inclusion
-- Get initial behaviors and tests in place
-- Wire up gulp
+- Configured to build with Gulp (DEV dependencies in package.json)
